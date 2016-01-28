@@ -1,0 +1,240 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 30px 0 30px 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.wow {
+   visibility: hidden;
+}
+
+.container {
+    width: auto;
+}
+
+.navbar {
+    min-height: 90px;
+    margin-bottom: 0px !important;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    height: auto;
+    margin: auto;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar-nav > li > a {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    border-right: 1px solid #CCC;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav > li > a > span {
+    margin-top: 5px 0 0 0;
+    font-size: 14px;
+    padding-top: 5px;
+    display: block;
+    font-weight: normal;
+    font-family: arial;
+    text-transform: none;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+.navbar-nav a:hover {
+    color: #FFF !important;
+    background: #0383C0 !important;
+}
+
+.jumbotron {
+    margin: 0 !important;
+    padding-top: 70px;
+    min-height: 500px;
+    background: url(../img/bg.jpg) no-repeat;
+}
+
+.jumbotron h1 {
+    font-size: 55px;
+}
+
+.fa-color {
+    color: #0383C0;
+}
+
+.section-gray {
+    background: #CCC;
+}
+
+.section-starter-account {
+    padding: 40px 100px 40px 100px;
+    text-align: left;
+}
+
+.section-stacked-icons {
+    padding: 60px 100px 60px 100px;
+    text-align: center;
+    color: #FFF;
+    background: #E44D26;
+}
+
+.section-stacked-icons h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.section-stacked-icons p {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.section-premier-account {
+    padding: 40px 70px 40px 70px;
+    text-align: left;
+    color: #FFF;
+    background: #0383C0;
+}
+
+.feature-list li {
+    list-style: none;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.section-title {
+    padding: 10px;
+    min-height: 40px;
+    color: #FFF;
+    background: #0383C0;
+}
+
+.section-title span {
+    color: #CCC;
+    font-size: 20px;
+}
+
+.about-us-image {
+    max-height: 500px;
+}
+
+.section-team {
+    padding: 20px;
+}
+
+.section-team span {
+    color: #888;
+    font-size: 20px;   
+}
+
+.section-team a {
+    padding: 0 5px 0 5px;
+}
+
+.section-team .col-md-4{
+    padding-top: 50px; 
+}
+
+.img-customer {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.people-img {
+    width: 100%;
+    z-index: 0;
+}
+
+.contact-details {
+    font-size: 20px;
+}
+
+.contact-details a {
+    padding-right: 10px;
+}
+
+@media (max-width: 990px) {
+
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left, 
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse {
+        border: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+
+    .navbar-nav {
+        float: none;
+        margin-top: 8px;
+    }
+
+    .navbar-nav > li {
+        float: none;;
+    }
+
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-right: none;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+}
+
+@media (max-width: 786px) {
+
+    .jumbotron {
+        min-height: 300px;
+    }
+
+    .jumbotron img {
+        display: none;
+    }
+}
+
+
+
